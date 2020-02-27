@@ -19,7 +19,7 @@ public class GenDeviceidPlugin implements MethodCallHandler {
 
     @Override
     public void onMethodCall(MethodCall methodCall, Result result) {
-        if (methodCall.method.equals("getPlatformVersion")) {
+        if (methodCall.method.equals("getDeviceId")) {
             result.success(getUniquePsuedoID());
         } else {
             result.notImplemented();
