@@ -1,6 +1,6 @@
 name: gen_deviceid_plugin
 description: generate a unique deviceid for android
-version: 0.0.4
+version: 0.0.6
 author: niuqun <guqung6@gmail.com>
 homepage: https://github.com/guqun/gen_deviceid_plugin
 
